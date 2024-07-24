@@ -1,5 +1,7 @@
 use std::{collections::HashMap, marker::PhantomData};
 
+use serde::{Serialize, Deserialize};
+
 use crate::{
     backend::{ModInit, VectorOps},
     pbs::WithShoupRepr,
